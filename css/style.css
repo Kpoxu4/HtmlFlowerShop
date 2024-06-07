@@ -7,8 +7,10 @@
 /*components imports*/
 @import "./components/_header.css";
 @import "./components/_burger-menu.css";
+@import "./components/_slaider.css";
 
 /*media*/
-@import "./_media.css"
+@import "./_media.css";
+
 
 
