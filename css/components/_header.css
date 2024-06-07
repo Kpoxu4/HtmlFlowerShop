@@ -25,6 +25,7 @@
     flex-direction: column;
     justify-content: space-between;
     margin-top: 23px;
+    cursor: pointer;
 }
 .burger-line{
     border: 1px solid #000;
@@ -71,48 +72,4 @@
     position: absolute;
     top: -7px;
     right: 5px;
-}
-@media (max-width: 700px) {
-    .burger{
-        max-height: 15px;
-        max-width: 15px;
-    }
-    .burger-line{
-        border: 1px solid #000;
-        width: 15px;
-    }
-    .header__logo{
-         margin-left: 50px;
-    }
-    .header__logo-title{
-        font-size: 18px;
-    }
-    .header__logo-desc{
-    font-size: 8px;
-    }
-    .users-tools-svg{
-        max-width: 80%;
-    }
-    .basket__items{
-        top: -5px;
-        right: 7px;
-    }
-}
-@media (max-width: 460px){
-        .header__logo {
-        margin-left: 10px;
-    }
-    .header__users-tools{
-        gap: 0px;
-    }
-}
-
-@media (max-width: 400px){
-    .users-tools-svg{
-        max-width: 60%;
-    }
-    .basket__items{
-        top: -6px;
-        right: 20px;
-    }
 }

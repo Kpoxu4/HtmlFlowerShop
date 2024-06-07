@@ -6,7 +6,9 @@
 
 /*components imports*/
 @import "./components/_header.css";
+@import "./components/_burger-menu.css";
 
-
+/*media*/
+@import "./_media.css"
 
 
