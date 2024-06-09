@@ -1,4 +1,27 @@
 /* Header media*/
+@media (max-width: 780px){
+    .banner{
+        padding-top: 280px;    
+        padding-bottom: 40px; 
+    }
+    .banner__description{      
+        font-size: 16px;      
+    }
+    .banner__title{        
+        font-size: 44px;
+        letter-spacing: 0;
+        max-width: 500px;
+    }
+    .banner__link{
+        display: inline-block;
+        border-radius: 37px;
+        background: #d7537a;
+        text-align: center;
+        margin-top: 35px;
+        padding: 13px 28px;        
+    }
+}
+
 @media (max-width: 700px) {
     .burger{
         max-height: 15px;
@@ -24,6 +47,10 @@
         top: -5px;
         right: 7px;
     }
+     .banner{
+        padding-top: 290px;    
+        padding-bottom: 40px; 
+    }
 }
 @media (max-width: 460px){
         .header__logo {
@@ -31,6 +58,25 @@
     }
     .header__users-tools{
         gap: 0px;
+    }
+     .banner__description{      
+        font-size: 14px;      
+    }
+    .banner__title{        
+        font-size: 28px;     
+       
+    }
+    .banner__link{
+        display: inline-block;
+        border-radius: 37px;
+        background: #d7537a;
+        text-align: center;
+        margin-top: 35px;
+        padding: 13px 28px;        
+    }
+     .banner{
+        padding-top: 290px;    
+        padding-bottom: 40px; 
     }
 }
 

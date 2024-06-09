@@ -2,10 +2,8 @@
     background-color: #fff8f5;
 }
 .banner{
-    padding-top: 330px;
-    background-color: #fff8f5;
-    padding-bottom: 70px;
- 
+    padding-top: 330px;    
+    padding-bottom: 70px; 
 }
 .banner__description{
     font-family: var(--font-family);
@@ -33,4 +31,5 @@
     font-size: 24px;
     color: #fff;
     cursor: pointer;
+    font-size: 18px;
 }
