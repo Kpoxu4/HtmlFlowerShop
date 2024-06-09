@@ -2,34 +2,36 @@
     background-color: #fff8f5;
 }
 .banner{
-    margin-top: 330px;
+    padding-top: 330px;
     background-color: #fff8f5;
-    height: 350px;
+    padding-bottom: 70px;
+ 
 }
-.banner__title{
+.banner__description{
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 24px;
     color: #272626;
 }
-.banner__description{
+.banner__title{
     font-family: var(--font-family);
-    font-weight: 800;
+    font-weight: 700;
     font-size: 64px;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.07em;
     color: #272626;
+    max-width: 800px;
 }
 .banner__link{
+    display: inline-block;
     border-radius: 37px;
-    width: 275px;
-    height: 74px;
     background: #d7537a;
-    justify-content: center;
-    align-content: center;
+    text-align: center;
     margin-top: 35px;
+    padding: 23px 48px;
 }
 .choose{
     font-family: var(--font-family);
+    font-weight: 700;
     font-size: 24px;
     color: #fff;
     cursor: pointer;
