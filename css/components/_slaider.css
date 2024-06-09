@@ -1,6 +1,5 @@
 .slider{
     background-color: var(--backlight-color);
-    /*margin-top: 685px; */ /*времено после Тани переделать*/
 }
 .slider__title{
     font-family: var(--font-family);

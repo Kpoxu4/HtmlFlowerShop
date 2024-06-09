@@ -1,4 +1,14 @@
-/* Header media*/
+@media (max-width: 1220px){
+   .slider__item {
+        flex: 0 0 calc(34.5% - 18px);
+    }
+}
+@media (max-width: 920px){
+   .slider__item {
+        flex: 0 0 calc(52% - 18px);
+    }
+}
+
 @media (max-width: 780px){
     .banner{
         padding-top: 280px;    
@@ -52,6 +62,13 @@
         padding-bottom: 40px; 
     }
 }
+
+@media (max-width: 620px){
+   .slider__item {
+        flex: 0 0 calc(102% - 18px);
+    }
+}
+
 @media (max-width: 460px){
         .header__logo {
         margin-left: 10px;
