@@ -11,6 +11,7 @@
 @import "./components/_slaider.css";
 @import "./components/_why-us.css";
 @import "./components/_catalog.css";
+@import "./components/_delivery.css";
 
 /*media*/
 @import "./_media.css";
