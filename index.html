@@ -378,6 +378,31 @@
                 </div>
              </section>
             <!-- Delivery end-->
+            <!-- Offer-your-bouquet start-->
+             <section class="offer-your-bouquet">
+                <div class="container">
+                    <h2 class="offer-your-bouquet__title">
+                        Предложи свой букет
+                    </h2>
+                        <form asp-action="OfferYourBouquet" method="post" enctype="multipart/form-data">
+                            <div class="offer-your-bouquet__form-wrapper flex">
+
+                                <div class="offer-your-bouquet__input-wrapper flex">
+                                    <input asp-for="Name" placeholder="Имя" class="offer-your-bouquet__name"/>
+                                    <input asp-for="Phone" placeholder="Телефон" class="offer-your-bouquet__phone"/>                               
+                                    <textarea asp-for="Idea" placeholder="Ваша идея"class="offer-your-bouquet__idea" ></textarea>
+                                </div>
+                                
+                                <img src="./img/offer-your-bouquet.jpg" alt="img" class="offer-your-bouquet-img">
+
+                            </div>
+                            <div class="wrapper-btn flex">
+                                <button type="submit" class="offer-your-bouquet-btn btn-reset">Отправить</button>
+                            </div>
+                        </form>                    
+                </div>
+             </section>
+            <!-- Offer-your-bouquet start-->
         </main>
 
     </div>

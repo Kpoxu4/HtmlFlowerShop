@@ -8,6 +8,13 @@
     .catalog__items_litle {
         grid-column: span 4;        
     }
+    .offer-your-bouquet-img{
+       display: none;
+    }
+    .offer-your-bouquet__form-wrapper{
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
 }
 @media (max-width: 1100px) {
     .why-us__item-bg-first::before{
@@ -62,6 +69,23 @@
     font-size: 18px;
     padding: 0 80px 164px 100px;
     }
+}
+@media (max-width: 920px){
+    .offer-your-bouquet__title{
+        font-size: 28px;
+    }
+    .offer-your-bouquet__name,
+    .offer-your-bouquet__phone,
+    .offer-your-bouquet__idea{     
+        width: 600px;        
+        font-size: 18px;
+        line-height: 0%;        
+        display: flex;
+        align-items: center;
+        border: none;
+        margin-bottom: 10px;
+    }
+   
 }
 
 @media (max-width: 780px){
@@ -143,6 +167,11 @@
     .why-us__item-bg-third::before {
         width: 100%;
     }
+    .offer-your-bouquet__name,
+    .offer-your-bouquet__phone,
+    .offer-your-bouquet__idea{     
+        width: 450px;    
+    }
 }
 
 
@@ -222,6 +251,11 @@
     .why-us__item-bg-third-desc{
         padding: 20px 10px;
         width: 300px;
+    }
+    .offer-your-bouquet__name,
+    .offer-your-bouquet__phone,
+    .offer-your-bouquet__idea{     
+        width: auto;    
     }
 }
 
