@@ -13,6 +13,7 @@
 @import "./components/_catalog.css";
 @import "./components/_delivery.css";
 @import "./components/_offer-your-bouquet.css";
+@import "./components/_footer.css";
 
 /*media*/
 @import "./_media.css";
