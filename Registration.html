@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>FlowerShop</title>
+</head>
+
+<body>
+    <div class="site-container first">
+        <div class="first-bg"></div>
+        <!-- Header start -->
+        <header class="header">
+            <div class="container">
+                <div class="header__wrapper flex">
+
+                    <div class="burger flex">
+                        <div class="burger-line"></div>
+                        <div class="burger-line"></div>
+                        <div class="burger-line"></div>
+                    </div>
+
+                    <div class="header__logo">
+                        <h2 class="header__logo-title">Floristman</h2>
+                        <p class="header__logo-desc">Широкий выбор на любой вкус</p>
+                    </div>
+
+                    <div class="header__users-tools flex">
+                        <a href="#" class="search"><img src="./img/svg/search.svg" alt="img"
+                                class="search-svg users-tools-svg"></a>
+                        <a href="#" class="basket">
+                            <img src="./img/svg/basket.svg" alt="img" class="basket-svg users-tools-svg">
+                            <p class="basket__items">0</p>
+                        </a>
+                        <a href="" class="user-cabinet"><img src="./img/svg/user.svg" alt=""
+                                class="user-cabinet-svg users-tools-svg"></a>
+                    </div>
+
+                </div>
+                <div class="burger__menu">
+                    <ul class="burger__menu-items flex">
+                        <a href="#">
+                            <li class="burger__menu-item">Цветы</li>
+                        </a>
+                        <a href="#">
+                            <li class="burger__menu-item">Сладости</li>
+                        </a>
+                        <a href="#">
+                            <li class="burger__menu-item">Воздушные шарики</li>
+                        </a>
+                        <a href="#">
+                            <li class="burger__menu-item">Услуги</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- Header end -->
+        <!-- main start -->
+        <main class="main">    
+
+            <div class="registration__wrapper">
+                <div class="registration flex">
+                    <h2 class="registration__title">
+                        Регистрация
+                    </h2>
+                    <p class="registration__question">
+                        Есть аккаунт?<a href="#" class="registration__link">Войдите</a>
+                    </p>
+                     <form method="post" class="registration-form">
+                        <div class="registration__form-group">
+                            <input class="registration__form-group-item" type="text" name="phone" placeholder="Телефон" required>
+                        </div>
+                        <div class="registration__form-group">
+                            <input class="registration__form-group-item" type="text" name="name" placeholder="Имя" required>
+                        </div>                    
+                        <div class="registration__form-group">
+                            <input class="registration__form-group-item" type="password" name="password" placeholder="Пароль" required>
+                            <span class="password-toggle" onclick="togglePasswordVisibility()">&#128065;</span>
+                        </div>
+                        <button class="btn-reset registration-btn" type="submit">Зарегистрироваться</button>
+                    </form>
+                </div>
+            </div>          
+
+        </main>
+        <!-- main end -->
+        <footer class="footer flex">
+            <h2 class="footer__title">Контакты:</h2>
+            <a href="" class="footer__tel flex">+749500000000</a>
+            <a href="" class="footer__email flex">Електоронный_адрес@gmail.com</a>
+            <ul class="footer__social flex">
+                <a href="#" class="footer__social-link"><li class="footer__social-viber"></li></a>
+                <a href="#" class="footer__social-link"><li class="footer__social-fb"></li></a>
+                <a href="#" class="footer__social-link"><li class="footer__social-whatsApp"></li></a>
+                <a href="#" class="footer__social-link"><li class="footer__social-instagram"></li></a>
+            </ul>
+            <p class="footer__desc">©2024. Все права защищены </p>
+        </footer>  
+    </div>
+    <script src="./js/scripts.js"></script>
+</body>
+
+</html>
